@@ -92,11 +92,11 @@ class MobileUtil
 				daPath = "/sdcard/Android/obb/com.yoshman29.codenameengine";
 			*/
 			case 'EXTERNAL_MEDIA':
-				daPath = "/sdcard/Android/media/com.yoshman29.codenameengine";
+				daPath = "/sdcard/Android/media/com.yoshman29.codenameenginee";
 			case 'EXTERNAL_DATA':
-				daPath = "/sdcard/Android/data/com.yoshman29.codenameengine/files";
+				daPath = "/sdcard/Android/data/com.yoshman29.codenameenginee/files";
 			default: //technically not needed but here for safety -ArkoseLabs
-				if (daPath == null || daPath == '') daPath = "/sdcard/Android/data/com.yoshman29.codenameengine/files";
+				if (daPath == null || daPath == '') daPath = "/sdcard/Android/data/com.yoshman29.codenameenginee/files";
 		}
 		daPath = Path.addTrailingSlash(daPath);
 		currentDirectory = daPath;
